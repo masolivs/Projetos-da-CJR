@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação</title>
+    <style>
+
+        body {
+	        background-color: black;
+            color: white;
+        }
+
+        .profile-image {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+
+        }
+        .link-box {
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        .link-box a {
+            color: black;
+            text-decoration: none;
+            display: block;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mariana Soares Oliveira</h1>
+    <h2>Sobre mim</h2>
+    <img class="profile-image" src="C:\Users\maria\Downloads\WhatsApp Image 2023-09-16 at 3.19.11 PM.jpeg" alt="oi">
+    <p> Olá! Meu nome é Mariana e atualmente estou no segundo período de Engenharia de Computação na Universidade de Brasília. Me interesso bastante por Inteligência Artificial e Desenvolvimento de Jogos. Acredito que a tecnologia tem um enorme poder de transformar a sociedade. <p>
+    <h2>Curiosidades</h2>
+    <p> • O meu jogo é The Sims 3, apesar de Toontown ter um cantinho reservado no meu coração. E para tentar sair da zona de conforto estou jogando League of Legends com a minha melhor amiga;<p>
+    <p> • Tenho uma gatinha chamada Church; </p>
+    <p> • Mo Dao Zu Shi é a minha novel chinesa favorita;</p>
+    <p> • No momento, estou aprendendo mandarim;</p>
+    <p> • "Misery", do Stephen King, é o meu livro favorito. Mas também gosto bastante de "Uzumaki", do Junji Ito. </p>
+
+    <h2>Redes Sociais</h2>
+    <div>
+        <div class = "link-box">
+            <a class = "Instagram" href="https://www.instagram.com/masolivs/" target ="_blank" rel="que">Instagram</a>
+        </div>
+        <div class = "link-box">
+            <a class = "Github" href="https://github.com/Maharys" target ="_blank" rel="que">Github</a>
+        </div>
+        <div class = "link-box">
+            <a class = "LinkedIn" href="https://www.linkedin.com/in/mariana-oliveira-498981290/" target="_blank" rel="que">LinkedIn</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
