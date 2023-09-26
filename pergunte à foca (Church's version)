@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunte à Church</title>
+</head>
+<body>
+    <h1>Pergunte à Church</h1>
+    <h2>Agora a gatinha mais amada do 1 G 11 responde as suas dúvidas mais profundas!</h2>
+    <img src="C:\Users\maria\Downloads\fotoChuckinha.jpeg" alt="Puts, deu ruim :/">
+
+    <div>
+        <input type="text" class="input1"> ou <input type="text" class="input2">
+    </div>
+    <button type="button" onclick="nomeDaFuncao()"> Perguntar </button>       
+
+<style>
+    button {
+        background-color: white;
+    }
+
+    body {
+    background-color: white;
+    text-align: center;
+    }
+
+</style>
+<script>
+    function nomeDaFuncao(){
+        var escolha = Math.floor(Math.random() * 10);
+        if (escolha%2)
+	        alert("A gata escolheu "+document.querySelector(".input1").value)
+        else
+	        alert("A gata escolheu "+document.querySelector(".input2").value)
+        }
+</script>
+</body>
+</html>
