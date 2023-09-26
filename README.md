@@ -1,3 +1,3 @@
-# Projetinhos-da-CJR
+# Projetos-da-CJR
 
 :)
